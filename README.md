@@ -31,6 +31,13 @@ Once the container is running, access the shell by executing:
 docker exec -it hadoop-container /bin/bash
 ```
 
+### 4. Switch User
+
+Once inside the container switch to hadoop user:
+
+```bash
+su hadoopuser
+```
 ## Hadoop Web Interfaces
 
 - **NameNode UI**: [http://localhost:9870](http://localhost:9870)
